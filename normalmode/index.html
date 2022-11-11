@@ -9,13 +9,19 @@
 </head>
 <body>
     <div class="center-header">
-        <h1 class="main-header">DICE GAME</h1>
+        <a href="../index.html">
+            <h1 class="main-header">DICE GAME</h1>
+        </a>
         <h1 class="secondary-header">NORMAL MODE</h1>
     </div>
-    <div>
-        <p>
-            <img id="dice" src="../img/dice1.png" alt="one">
-        </p>
+    <div class="play-area">
+        <div class="dice-img">
+            <input id="button" type="image" src="../img/dice1.png"/>
+        </div>
+        <div class="scoreboard">
+            <p class="sb-header">SCORE BOARD</p>
+            <p class="sbtext" id="result">Throw to see results</p>
+        </div>
     </div>
 </body>
 <script src="../js/normal.js"></script>
